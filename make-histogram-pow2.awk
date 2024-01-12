@@ -10,7 +10,7 @@
 }
 
 END { 
-	for (n in num) print n, num[n] 
+	for (n in num) print 8* (2**n), num[n] 
 }
 
 
